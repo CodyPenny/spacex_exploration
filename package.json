@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "test": "nodemon server.js",
-    "dev": "webpack-dev-server --mode development --open --hot",
+    "dev": "webpack-dev-server --mode development --open --hot ",
     "build": "webpack --mode production"
   },
   "repository": {
@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/CodyPenny/spacex_exploration#readme",
   "dependencies": {
+    "@apollo/client": "^3.0.2",
     "axios": "^0.19.2",
+    "babel-plugin-file-loader": "^2.0.0",
     "express": "^4.17.1",
     "express-graphql": "^0.11.0",
     "graphql": "^15.3.0",
