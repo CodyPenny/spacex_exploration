@@ -1,9 +1,13 @@
 const express = require('express');
 const { graphqlHTTP } = require('express-graphql');
 const schema = require('./schema');
+const cors = require('cors');
 
 const app = express();
 // app.use(express.static(__dirname + '/dist'));
+
+// allow cross-origin
+app.use(cors());
 
 app.use(
     '/graphql', 
