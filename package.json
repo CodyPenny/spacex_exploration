@@ -21,7 +21,7 @@
   "homepage": "https://github.com/CodyPenny/spacex_exploration#readme",
   "dependencies": {
     "@apollo/client": "^3.0.2",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-plugin-file-loader": "^2.0.0",
     "classnames": "^2.2.6",
     "cors": "^2.8.5",
